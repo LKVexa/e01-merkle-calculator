@@ -1,0 +1,9 @@
+E01 Merkle Calculator
+Copyright 2026 RUSSELL PHILIP SMITHSON
+
+Original Python project code and September 2026 modifications are provided
+under the Apache License, Version 2.0. See LICENSE.
+
+The merklecpp algorithm reference files originate from Microsoft Corporation
+under the MIT License. Their copyright and license are retained in
+e01v2/vendor/LICENSE.merklecpp.txt. See THIRD-PARTY-NOTICES.md.

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=78,<85"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "e01-merkle-calculator"
+version = "0.1.2a1"
+description = "Bounded BigInt and Decimal calculator with verifiable Merkle receipts"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0 AND MIT"
+license-files = ["LICENSE", "NOTICE", "THIRD-PARTY-NOTICES.md", "e01v2/vendor/LICENSE*.txt"]
+authors = [{name = "RUSSELL PHILIP SMITHSON"}]
+dependencies = []
+
+[project.scripts]
+e01-merkle-calculator = "e01v2.server:main"
+e01-verify-ledger = "e01v2.merkle_ledger:main"
+
+[tool.setuptools.packages.find]
+include = ["e01v2*"]
+
+[tool.setuptools.package-data]
+"e01v2" = ["vendor/*.txt", "vendor/*.h", "vendor/*.cpp"]

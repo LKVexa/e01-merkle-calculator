@@ -147,7 +147,9 @@ provenance remain open. This release does not advance those certifications.
 
 ## License
 
-Copyright 2026 **RUSSELL PHILIP SMITHSON**.
-Original Python code and modifications: [Apache License 2.0](LICENSE) and
+Copyright (C) 2026 **RUSSELL PHILIP SMITHSON**.
+Original Python code and modifications: [GNU General Public License, version 3 only (GPL-3.0-only)](LICENSE) and
 [NOTICE](NOTICE). Microsoft's MIT merklecpp reference files retain their
 upstream license; see [THIRD-PARTY-NOTICES](THIRD-PARTY-NOTICES.md).
+
+See [COPYRIGHT](COPYRIGHT) for the project copyright and GPL notice.

@@ -9,7 +9,7 @@ These reference files are unmodified and are not compiled or executed here.
 
 The Python ledger follows the donor's SHA-256 binary-node and odd-node carry
 scheme. Original Python code and September 2026 hardening modifications by
-RUSSELL PHILIP SMITHSON are Apache 2.0; the upstream C++ reference material
+RUSSELL PHILIP SMITHSON are licensed under GPL-3.0-only; the upstream C++ reference material
 retains Microsoft's MIT copyright and license. LICENSE and NOTICE cover the
 delivery, with no removal or replacement of the upstream notice.
 
